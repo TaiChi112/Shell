@@ -31,3 +31,8 @@ num1=10
 num2=20
 result=$((num1 + num2))
 echo "Result: $result"
+
+function Log(){
+    echo "This loging $1"
+}
+Log "Hello World"
